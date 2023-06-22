@@ -1,19 +1,17 @@
+*{
+    text-align: center;
+}
 body{
-    background: #333333; 
-    background: -webkit-linear-gradient(to right, #dd1818, #333333); 
-    background: linear-gradient(to right, #dd1818, #333333);
-    ;}
+    background-color: white;
+}
 
 
 h1{
-    width: 500px;
-    margin-top: 100px;
-    margin-left: 360px;
-    background: #ccc;
-    background: linear-gradient(90deg,#000000,#ff0000);
+    text-align: center;
+    color: #232526;
     font-size: 3rem;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+
+    margin-top: 100px;
     
  }
 body {
@@ -57,30 +55,26 @@ nav{
     margin-top: 25px;
 }
 .nav .enlaces_header a{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     text-decoration:none;
-    margin-left: 9px;
+    
 }
 
 /*** ESTILOS BOTÓN GROW SKEW ***/
 .boton {
-    margin-top: -10px;
-    background: #020202; /* color de fondo */
-    color: #000000; /* color de fuente */
-    border: 2px solid #000000; /* tamaño y color de borde */
     padding: 10px 15px;
-    border-radius: 3px; /* redondear bordes */
+    border-radius: 3px; 
     position: relative;
     z-index: 1;
     overflow: hidden;
     display: inline-block;
   }
   .boton:hover {
-    color: #000000;/* color de fuente hover */
+
   }
   .boton::after {
     content: "";
-    background: #ff0000; /* color de fondo hover */
+    background:darkslategrey;
     position: absolute;
     z-index: -1;
     padding: 10px 15px;
@@ -107,6 +101,6 @@ nav{
 #foto_perfil {
     width: 600px;
     height: 600px;
-    margin-left: 450px;
+    margin-left: 150px;
     margin-top: -50px;
 }
